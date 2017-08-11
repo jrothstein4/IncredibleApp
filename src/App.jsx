@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import Login from './Login/index.jsx'
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello React :)</h1>
+      <Login />
     );
   }
 }
